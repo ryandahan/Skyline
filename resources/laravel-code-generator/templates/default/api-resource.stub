@@ -1,0 +1,36 @@
+<?php
+
+namespace [% namespace %];
+
+use Illuminate\Http\Resources\Json\Resource;
+
+class [% api_resource_class %] extends Resource
+{
+
+    protected $message;
+
+
+    public function __construct($resource, $message = null)
+    {
+        parent::__construct($resource);
+
+        $this->message = $message;
+    }
+
+
+    public function toArray($request)
+    {
+        return [
+[% model_api_array %]
+        ];
+    }
+
+
+    public function with($request)
+    {
+        return [
+            'success' => true,
+            'message' => $this->message,
+        ];
+    }
+}

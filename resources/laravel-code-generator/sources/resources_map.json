@@ -1,0 +1,142 @@
+[
+    {
+        "model-name": "SmsTemplate",
+        "resource-file": "sms_templates.json"
+    },
+    {
+        "model-name": "SmsContact",
+        "resource-file": "sms_contacts.json"
+    },
+    {
+        "model-name": "SMSModel",
+        "resource-file": "s_m_s_models.json"
+    },
+    {
+        "model-name": "BuySms",
+        "resource-file": "buy_sms.json"
+    },
+    {
+        "model-name": "Student",
+        "resource-file": "students.json"
+    },
+    {
+        "model-name": "IVA",
+        "resource-file": "i_v_as.json"
+    },
+    {
+        "model-name": "Test",
+        "resource-file": "tests.json"
+    },
+    {
+        "model-name": "Blog",
+        "resource-file": "blogs.json"
+    },
+    {
+        "model-name": "Food",
+        "resource-file": "food.json"
+    },
+    {
+        "model-name": "Bank",
+        "resource-file": "banks.json"
+    },
+    {
+        "model-name": "BankAccount",
+        "resource-file": "bank_accounts.json"
+    },
+    {
+        "model-name": "General",
+        "resource-file": "generals.json"
+    },
+    {
+        "model-name": "FaqCategory",
+        "resource-file": "faq_categories.json"
+    },
+    {
+        "model-name": "FaqContent",
+        "resource-file": "faq_contents.json"
+    },
+    {
+        "model-name": "ChecklistCategory",
+        "resource-file": "checklist_categories.json"
+    },
+    {
+        "model-name": "Checklist",
+        "resource-file": "checklists.json"
+    },
+    {
+        "model-name": "cleaningType",
+        "resource-file": "cleaning_types.json"
+    },
+    {
+        "model-name": "cleaningCharge",
+        "resource-file": "cleaning_charges.json"
+    },
+    {
+        "model-name": "ServiceOrderDetails",
+        "resource-file": "service_order_details.json"
+    },
+    {
+        "model-name": "ServiceOrder",
+        "resource-file": "service_orders.json"
+    },
+    {
+        "model-name": "Coupon",
+        "resource-file": "coupons.json"
+    },
+    {
+        "model-name": "employee",
+        "resource-file": "employees.json"
+    },
+    {
+        "model-name": "Post",
+        "resource-file": "posts.json"
+    },
+    {
+        "model-name": "ContactUs",
+        "resource-file": "contact_uses.json"
+    },
+    {
+        "model-name": "CustomerQuerys",
+        "resource-file": "customer_querys.json"
+    },
+    {
+        "model-name": "Package",
+        "resource-file": "packages.json"
+    },
+    {
+        "model-name": "Category",
+        "resource-file": "categories.json"
+    },
+    {
+        "model-name": "GeneralSettings",
+        "resource-file": "general_settings.json"
+    },
+    {
+        "model-name": "Sales",
+        "resource-file": "sales.json"
+    },
+    {
+        "model-name": "Fabric",
+        "resource-file": "fabrics.json"
+    },
+    {
+        "model-name": "Pictures",
+        "resource-file": "pictures.json"
+    },
+    {
+        "model-name": "Inquiries",
+        "resource-file": "inquiries.json"
+    },
+    {
+        "model-name": "Settings",
+        "resource-file": "settings.json"
+    },
+    {
+        "model-name": "Catalog",
+        "resource-file": "catalogs.json"
+    },
+    {
+        "model-name": "Contact",
+        "resource-file": "contacts.json"
+    }
+]

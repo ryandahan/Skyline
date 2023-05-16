@@ -1,0 +1,27 @@
+<?php
+
+namespace [% namespace %];
+
+[% use_command_placeholder %]
+
+class [% model_name_class %] [% model_extends %]
+{
+    [% use_soft_delete_trait %]
+[% time_stamps %]
+
+    protected $table = '[% table %]';
+
+[% primary_key %]
+
+    protected $fillable = [% fillable %];
+
+
+    protected $dates = [% dates %];
+
+
+    protected $casts = [% casts %];
+
+[% relationships %]
+[% mutators %]
+[% accessors %]
+}

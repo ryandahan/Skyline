@@ -1,0 +1,28 @@
+<?php
+
+namespace [% namespace %];
+
+use Illuminate\Database\Eloquent\Model;
+[% use_soft_delete %]
+class [% model_name_class %] extends Model
+{
+    [% use_soft_delete_trait %]
+[% time_stamps %]
+
+    protected $table = '[% table %]';
+
+[% primary_key %]
+
+
+    protected $fillable = [% fillable %];
+
+
+    protected $dates = [% dates %];
+
+
+    protected $casts = [% casts %];
+
+[% relationships %]
+[% mutators %]
+[% accessors %]
+}
